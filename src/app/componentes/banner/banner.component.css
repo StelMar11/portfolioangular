@@ -1,0 +1,31 @@
+/*Estilo Banner*/ 
+.mat-card {
+    margin: 0px;
+    padding: 20px;
+  }
+  /*Estilo img del banner */
+  .mat-card#first-card {
+     padding: 0;
+  }
+  /*Estilo Banner*/
+  div#profile-background {
+    display: flex;
+  }
+  /*Estilo img banner*/
+  div#profile-background img {
+    width: 100%;
+    height: 350px;
+    border-radius: 32px;
+  }
+  /*Estilo Foto Perfil*/
+  #perfil{
+    border-radius: 50%;
+    margin-top: -5%;
+  }
+  /*estilos texto debajo perfil*/
+  .datos{
+    display: flex;
+    font-size: 1.8rem; 
+    text-align:center;
+    justify-content: center;
+    }
