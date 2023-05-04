@@ -1,0 +1,27 @@
+ /*Estilo Borde del header*/
+ header{
+    border-bottom:10px solid  rgb(114, 114, 158) ;
+  }
+  /*Estilo del Navbar*/
+  .navbar{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+   }
+   /*Estilo de la lista de contacto*/
+  .list-group-item-light{ 
+    list-style: none;
+     padding: 0.9rem;
+     display:inline-flex
+   }
+   /*Estilo de los íconos de contacto*/
+  .fa-brands{
+    color: black;
+    padding: 0.5rem; 
+    position: relative;
+  }
+   /*Estilo clase de la img del log arg progr y de Info de contacto del footer*/
+   .aire{
+    padding-left: 1rem;
+  }
