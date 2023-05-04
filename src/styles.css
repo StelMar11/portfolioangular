@@ -176,10 +176,7 @@ body{
   p{
     font-family: 'Courgette', cursive; 
   }
-  /*Estilo section experiencia*/
-  .experiencia{
-    align-items: center;
-  }
+  
   /*Estilo clase de la img del log arg progr y de Info de contacto del footer*/
   .aire{
     padding-left: 1rem;
