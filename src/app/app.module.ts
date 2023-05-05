@@ -11,6 +11,16 @@ import { HabilidadesComponent } from './componentes/habilidades/habilidades.comp
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { ModalesComponent } from './componentes/modales/modales.component';
+import { EditRedesComponent } from './componentes/modalesSi/edit-redes/edit-redes.component';
+import { EditBannerComponent } from './componentes/modalesSi/edit-banner/edit-banner.component';
+import { ImgPerfilComponent } from './componentes/modalesSi/img-perfil/img-perfil.component';
+import { EditAboutComponent } from './componentes/modalesSi/edit-about/edit-about.component';
+import { EditExperienciaComponent } from './componentes/modalesSi/edit-experiencia/edit-experiencia.component';
+import { EditEducacionComponent } from './componentes/modalesSi/edit-educacion/edit-educacion.component';
+import { EditHabilidadesComponent } from './componentes/modalesSi/edit-habilidades/edit-habilidades.component';
+import { EditProyectoComponent } from './componentes/modalesSi/edit-proyecto/edit-proyecto.component';
+import { ModalLoginComponent } from './componentes/modalesSi/modal-login/modal-login.component';
+import { ModalLogoutComponent } from './componentes/modalesSi/modal-logout/modal-logout.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +32,17 @@ import { ModalesComponent } from './componentes/modales/modales.component';
     HabilidadesComponent,
     ProyectosComponent,
     FooterComponent,
-    ModalesComponent
+    ModalesComponent,
+    EditRedesComponent,
+    EditBannerComponent,
+    ImgPerfilComponent,
+    EditAboutComponent,
+    EditExperienciaComponent,
+    EditEducacionComponent,
+    EditHabilidadesComponent,
+    EditProyectoComponent,
+    ModalLoginComponent,
+    ModalLogoutComponent
   ],
   imports: [
     BrowserModule,
