@@ -21,6 +21,7 @@ import { EditHabilidadesComponent } from './componentes/modalesSi/edit-habilidad
 import { EditProyectoComponent } from './componentes/modalesSi/edit-proyecto/edit-proyecto.component';
 import { ModalLoginComponent } from './componentes/modalesSi/modal-login/modal-login.component';
 import { ModalLogoutComponent } from './componentes/modalesSi/modal-logout/modal-logout.component';
+import { IndexComponent } from './componentes/index/index.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ModalLogoutComponent } from './componentes/modalesSi/modal-logout/modal
     EditHabilidadesComponent,
     EditProyectoComponent,
     ModalLoginComponent,
-    ModalLogoutComponent
+    ModalLogoutComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
