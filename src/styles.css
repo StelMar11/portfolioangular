@@ -8,14 +8,8 @@ body{
   /*Estilo de Header Banner Footer y los div class container de las section*/
   .fondo{
     background: radial-gradient(circle, #9bd6ef, #d466ef);
-   
-  }
- 
-  /*Estilo Borde del footer*/
-  footer{
-    border-top:10px solid  rgb(114, 114, 158) ;
-  }
-  /*Estilo de la class container flex*/
+   }
+ /*Estilo de la class container flex*/
   .container-flex{
     display: flex;
     height: auto;
@@ -23,16 +17,12 @@ body{
     padding: 20px;
     margin: 0%;
   }
-  
-   
   .centrado{
     text-align: center;
   }
-  
-    /*Estilo menu*/
+  /*Estilo menu*/
     .dropdown{
       text-align:end
-  
       }
     .dropdown-toggle{
       width:auto;
@@ -68,7 +58,6 @@ body{
     
   /*Estilo de la lista de contacto*/
   .list-group-item-light{ 
-   
    list-style: none;
     padding: 0.9rem;
   }
@@ -103,7 +92,6 @@ body{
   p{
     font-family: 'Courgette', cursive; 
   }
-  
   /*Estilo clase de la img del log arg progr y de Info de contacto del footer*/
   .aire{
     padding-left: 1rem;
