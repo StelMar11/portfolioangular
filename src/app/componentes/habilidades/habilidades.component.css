@@ -2,7 +2,7 @@
 .barra{
    box-sizing: border-box;
    display: flex;
-    width: 100%;
+    width: 80%;
     height: 1.5rem;
     border-radius: 3rem;
     border-color:#d466ef ;
