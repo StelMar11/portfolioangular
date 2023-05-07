@@ -23,6 +23,8 @@ import { ModalLoginComponent } from './componentes/modalesSi/modal-login/modal-l
 import { ModalLogoutComponent } from './componentes/modalesSi/modal-logout/modal-logout.component';
 import { IndexComponent } from './componentes/index/index.component';
 import { Pagina404Component } from './componentes/pagina404/pagina404.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { LogoutComponent } from './componentes/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { Pagina404Component } from './componentes/pagina404/pagina404.component'
     ModalLoginComponent,
     ModalLogoutComponent,
     IndexComponent,
-    Pagina404Component
+    Pagina404Component,
+    LoginComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
