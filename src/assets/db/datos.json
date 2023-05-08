@@ -1,9 +1,11 @@
 {
-  "nombre":""
+  "banner-img": "../../asset/img/bannersit.png",
+  "img-perfil":"../../asset/img/fotoPerfilst.jpg",
+  "nombre":"StellaMaris",
+  "apellido":"Salgado",
+  "programador":"Full Stack Developer Junior",
+  "about": "Me considero una persona proactiva, organizada, y responsable, con buenas relaciones interpersonales, teniendo a lo largo de mi carrera experiencia de trabajo en equipo, tanto en forma presencial como remota.",
+  "invito": "Te invito a recorrer mi portfolio, haciendo scroll o dirigiéndote a la sección que te interese, haciendo clic en Menú."
+
   
-
-
-
-
-
 }
