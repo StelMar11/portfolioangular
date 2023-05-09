@@ -1,11 +1,40 @@
 {
+  "url-linkedin":"https://www.linkedin.com/in/stella-maris-salgado-95099838/",
+  "url-github":"https://github.com/StelMar11",
+  "url-discord":"https://discord.com/channels/@me",
+  "url-telegrm":"https://web.telegram.org/k/",
   "banner-img": "../../asset/img/bannersit.png",
   "img-perfil":"../../asset/img/fotoPerfilst.jpg",
   "nombre":"StellaMaris",
   "apellido":"Salgado",
   "programador":"Full Stack Developer Junior",
   "about": "Me considero una persona proactiva, organizada, y responsable, con buenas relaciones interpersonales, teniendo a lo largo de mi carrera experiencia de trabajo en equipo, tanto en forma presencial como remota.",
-  "invito": "Te invito a recorrer mi portfolio, haciendo scroll o dirigiéndote a la sección que te interese, haciendo clic en Menú."
-
+  "invito": "Te invito a recorrer mi portfolio, haciendo scroll o dirigiéndote a la sección que te interese, haciendo clic en Menú.",
+   "experiencias":[
+    {
+      "id":1,
+      "img":"../../asset/img/escuelaGe.jpg",
+      "actividad":"Docente de Nivel Primario",
+      "descripcion": "Docente de nivel primario en la escuela General San Martín, San Javier, provincia de Córdoba",
+      "inicio": "03/08/2009",
+      "fin": "14/02/2023"
+    },
+    {
+      "id":2,
+      "img":"../../asset/img/congresoEducExpo.jpg",
+      "actividad":"Congreso Provincial de Ciencias y Tecnologías",
+      "descripcion": "Presenté como expositora el taller: Ajedrez en la escuela",
+      "inicio": "16/09/2015",
+      "fin": "18/09/2015"
+    },
+    {
+      "id":3,
+      "img":"../../asset/img/feriaDeCiencias3.jpg",
+      "actividad":"Feria de Ciencias y Tecnología",
+      "descripcion": "Instancia zonal y Provincial, realizadas de manera virtual, utilizando variados recursos y herramientas tecnológicas, para la presentación del proyecto.",
+      "inicio": "15/04/2021",
+      "fin": "17/11/2021"
+    }
+  ]
   
 }
