@@ -9,7 +9,6 @@ import { HttpClient} from '@angular/common/http';
 })
 export class DatosService {
   //http es un alias
-
   constructor(private http:HttpClient) { }
   //Método observable, devuelve datos
   getDatos():Observable <any> {
