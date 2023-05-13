@@ -1,10 +1,10 @@
 {
   "vinculos":[{
   "logo": "../assets/asset/img/logoArgProgne.png",
-  "url-linkedin":"https://www.linkedin.com/in/stella-maris-salgado-95099838/",
-  "url-github":"https://github.com/StelMar11",
-  "url-discord":"https://discord.com/channels/@me",
-  "url-telegrm":"https://web.telegram.org/k/"
+  "urlLinkedin":"https://www.linkedin.com/in/stella-maris-salgado-95099838/",
+  "urlGithub":"https://github.com/StelMar11",
+  "urlDiscord":"https://discord.com/channels/@me",
+  "urlTelegrm":"https://web.telegram.org/k/"
     }
   ],
   "banner": "../assets/asset/img/bannersit.png",
