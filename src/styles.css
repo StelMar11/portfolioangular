@@ -46,9 +46,9 @@ body{
   /*Estilo de las img de las section*/
   .img-thumbnail{
     display:flex;
-    width: 50%;
+    width: 50vw;
     height: 10rem;
-     border-image: auto;
+    border-image: auto;
     transition: all 300ms;
     position: relative;
     border-radius: 10%;

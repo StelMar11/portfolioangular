@@ -16,6 +16,7 @@
   "about": "Me considero una persona proactiva, organizada, y responsable, con buenas relaciones interpersonales, teniendo a lo largo de mi carrera experiencia de trabajo en equipo, tanto en forma presencial como remota.",
   "invito": "Te invito a recorrer mi portfolio, haciendo scroll o dirigiéndote a la sección que te interese, haciendo clic en Menú.",
   "tituloExpe": "Experiencia",
+  "tituloEduc":"Educación",
 
    "experiencias":[
     {
@@ -46,7 +47,7 @@
   "educaciones":[
     {
       "id":1,
-      "img-certf":"../assets/asset/img/tituloDocente.jpeg",
+      "imgCertif":"../assets/asset/img/tituloDocente.jpeg",
       "titulo":"Maestra especializada en Educación Primaria",
       "institucion":"Instituto de Formación Docente N°45",
       "modalidad":"Nivel Terciariario - Haedo-Buenos Aires",
@@ -55,7 +56,7 @@
     },
     {
       "id":2,
-      "img-certf":"../assets/asset/img/postitulEductic.jpeg",
+      "imgCertif":"../assets/asset/img/postitulEductic.jpeg",
       "titulo":"Especialista Docente de Nivel Superior en Educación y TIC",
       "institucion":"Instituto Superior Dr. Carlos María Carena",
       "modalidad":"Mina Clavero, Córdoba",
@@ -64,7 +65,7 @@
     },
     {
       "id":3,
-      "img-certf":"../assets/asset/img/argentinaProg.jpg",
+      "imgCertif":"../assets/asset/img/argentinaProg.jpg",
       "titulo":"Certificado: Sé Programar",
       "institucion":"Plan Argentina Programa ",
       "modalidad":"Modalidad:virtual",
@@ -73,7 +74,7 @@
     },
    {
     "id":4,
-    "img-certf":"../assets/asset/img/cursoEdC.jpg",
+    "imgCertif":"../assets/asset/img/cursoEdC.jpg",
     "titulo":"Curso: Introducción a la programación: Lenguaje C y C++",
     "institucion":"Eddis Educativa",
     "modalidad":"Modalidad virtual.",
@@ -82,7 +83,7 @@
    },
    {
     "id":5,
-    "img-certf":"../assets/asset/img/htmlcss1.png",
+    "imgCertif":"../assets/asset/img/htmlcss1.png",
     "titulo":"Curso:HTML y CSS desde cero",
     "institucion":"TodoCode Academy",
     "modalidad":"Modalidad virtual.",
@@ -91,7 +92,7 @@
    },
    {
     "id":6,
-    "img-certf":"../assets/asset/img/títuloFa.jpg",
+    "imgCertif":"../assets/asset/img/títuloFa.jpg",
     "titulo":"Argentina Programa: Yo programo",
     "institucion":"Plan Argentina Programa",
     "modalidad":"Modalidad virtual.",
@@ -100,7 +101,7 @@
    },
    {
     "id":7,
-    "img-certf":"../assets/asset/img/gitHub.jpg",
+    "imgCertif":"../assets/asset/img/gitHub.jpg",
     "titulo":"Curso: Git y GitHub",
     "institucion":"TodoCode Academy",
     "modalidad":"Modalidad virtual.",
@@ -109,7 +110,7 @@
    },
    {
     "id":8,
-    "img-certf":"../assets/asset/img/baseDatos.jpg",
+    "imgCertif":"../assets/asset/img/baseDatos.jpg",
     "titulo":"Curso: Base de Datos Relacionales(con MySQL)",
     "institucion":"TodoCode Academy.",
     "modalidad":"Modalidad virtual.",
@@ -118,7 +119,7 @@
    },
    {
     "id":9,
-    "img-certf":"../assets/asset/img/javaPricipcertif.jpg",
+    "imgCertif":"../assets/asset/img/javaPricipcertif.jpg",
     "titulo":"Curso: Java para Principiantes.",
     "institucion":"TodoCode Academy.",
     "modalidad":"Modalidad virtual.",

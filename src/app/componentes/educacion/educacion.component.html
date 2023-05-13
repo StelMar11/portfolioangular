@@ -1,66 +1,17 @@
  <!--Educación -->   
  <section class="formacion">
-    <div class="container-flex fondo">
-      <div class="row">
-        <h2 class="titulo" id="educ">Educación</h2>
-         <div class="col-sm-12 col-md-4">
-            <img src="./../../../assets/asset/img/tituloDocente.jpeg"class="img-fluid img-thumbnail" alt="Foto Título docente"><br>
-            <h5 class="fuente2">Maestra especializada en Educación Primaria</h5>
-            <p>Instituto de Formación Docente N°45<br>Haedo-Buenos Aires<br>
-               Inicio: 26/02/1990  Fin: 30/11/1993
+      <h2 class="titulo fondo" id="educ">{{tituloEduc}}</h2>
+    <div class="container-flex fondo" id="formacion">
+      <div class="row" id="fotoEd" *ngFor="let educacion of educacion">
+       <div class="col-auto">
+            <img class="img-fluid img-thumbnail" id="eduk" [src]="educacion.imgCertif" alt="Foto Título docente"><br>
+          <div class="text">
+            <h5 class="fuente2">{{educacion.titulo}}</h5>
+            <p>{{educacion.instiucion}}<br>{{educacion.modalidad}}<br>
+               Inicio:{{educacion.inicio}}  Fin: {{educacion.fin}}
             </p>
           </div>
-     
-          <div class="col-sm-12 col-md-4">
-            <img src="./../../../assets/asset/img/postitulEductic.jpeg"class="img-fluid img-thumbnail" alt="Certificado de postítulo"><br>
-            <h5 class="fuente2">Especialista Docente de Nivel Superior en Educación y TIC</h5>
-            <p>Instituto Superior "Dr. Carlos María Carena" Mina Clavero, Córdoba.<br>
-               Inicio: 26/05/2015 Fin: 02/06/2017</p>
-          </div>
-      
-          <div class="col-sm-12 col-md-4">
-            <img src="./../../../assets/asset/img/argentinaProg.jpg" class="img-fluid img-thumbnail" alt="Certificado Argentina Programa primera etapa"><br>
-            <h5 class="fuente2" >Certificado: Sé Programar</h5>
-            <p>Plan Argentina Programa. Modalidad:virtual<br>
-              Inicio: 28/04/2022 Fin: 11/06/2022
-            </p>
-          </div>
-
-          <div class="col-sm-12 col-md-4">
-            <img src="./../../../assets/asset/img/cursoEdC.jpg"class="img-fluid img-thumbnail" alt=" Foto del certificado introduccion lenguaje C"><br>
-            <h5 class="fuente2">Curso: Introducción a la programación: Lenguaje C y C++</h5>
-            <p>Eddis Educativa. Modalidad virtual.<br> Inicio: 20/07/2022 Fin:23/12/2022</p>
-          </div>
-
-          <div class="col-sm-12 col-md-4">
-            <img src="./../../../assets/asset/img/htmlcss1.png"class="img-fluid img-thumbnail" alt="Foto del Certificado TodoCode en HTML y CSS"><br>
-            <h5 class="fuente2">Curso: HTML y CSS desde cero</h5>
-            <p>TodoCode Academy. Modalidad virtual. <br> Inicio: 03/01/2023 Fin: 15/02/2023</p>
-          </div>
-
-          <div class="col-sm-12 col-md-4">
-            <img src="./../../../assets/asset/img/títuloFa.jpg"class="img-fluid img-thumbnail" alt="Foto del Certificado"/><br>
-            <h5 class="fuente2">Argentina Programa: Yo programo</h5>
-            <p>Plan Argentina Programa. Modalidad virtual. <br> Inicio: 30/10/2022 Fin: 20/05/2023</p>
-          </div>
-  
-          <div class="col-sm-12 col-md-4">
-            <img src="./../../../assets/asset/img/gitHub.jpg"class="img-fluid img-thumbnail" alt="Foto certificado del curso de git y github"><br>
-            <h5 class="fuente2">Curso: Git y GitHub</h5>
-            <p>TodoCode Academy. Modalidad virtual. <br>Inicio: 15/02/2023 Fin: 05/03/2023</p>
-          </div>
-
-          <div class="col-sm-12 col-md-4">
-            <img src="./../../../assets/asset/img/baseDatos.jpg"class="img-fluid img-thumbnail" alt="Foto certificado del curso de Base de Datos"><br>
-            <h5 class="fuente2">Curso: Base de Datos Relacionales(con MySQL)</h5>
-            <p>TodoCode Academy. Modalidad virtual. <br> Inicio: 02/02/2023 Fin: 03/03/2023</p>
-          </div>
-
-          <div class="col-sm-12 col-md-4">
-            <img src="./../../../assets/asset/img/javaPricipcertif.jpg"class="img-fluid img-thumbnail" alt="Foto certificado del curso de java nivel principiante"><br>
-            <h5 class="fuente2">Curso: Java para Principiantes.</h5>
-            <p>TodoCode Academy. Modalidad virtual. <br> Inicio: 20/02/2023 Fin: 25/03/2023</p>
-          </div>    
+        </div>   
       </div>
     </div>
   </section>
