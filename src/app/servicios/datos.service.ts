@@ -11,9 +11,9 @@ export class DatosService {
   //http es un alias
   constructor(private http:HttpClient) { }
   //Método observable, devuelve datos
-  getDatos():Observable <any> {
+  getDatos():Observable<any>{
 
-    return this.http.get('.assets/db/datos.json');
+    return this.http.get('./assets/db/datos.json');
 
   }
 }

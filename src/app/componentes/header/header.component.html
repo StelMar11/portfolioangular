@@ -1,7 +1,8 @@
  <!--Navbar-->
- <header class="fondo" id="header">
-    <nav class="navbar"id="inicio">
-      <img class="aire" src="./../../../assets/asset/img/logoArgProgne.png" alt="Logo de Argentina Programa"/>
+ <header id="vinculos"  class="fondo" id="header">
+    <nav class="navbar"id="inicio" *ngFor="let vinculo of vinculo">
+      
+      <img class="aire" [src]= "vinculo.logo" alt="Logo de Argentina Programa"/>
         <ul class="list-group list-group-horizontal">
          <a class="navbar-brand" href="#">
           <li class="list-group-item-light"><a href="https://www.linkedin.com/in/stella-maris-salgado-95099838/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
@@ -12,6 +13,7 @@
         </ul>
         <app-login></app-login>
         <app-logout></app-logout>
+      
     </nav>
   </header>
 

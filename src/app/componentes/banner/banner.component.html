@@ -2,23 +2,19 @@
 <section class="banner">
     <div class="card mat-card fondo" id="first card">
       <div id="profile-background">
-        <img src="./../../../assets/asset/img/bannersit.png" class="img-fluid" alt="Mano cosmica"/>
+        <img [src]="banner" class="img-fluid" alt="Mano cosmica"/>
       </div>
     <!--Foto de Perfil-->        
       <div class="row">
         <div class="col-sm-12 centrado">
-          <img src="./../../../assets/asset/img/fotoPerfilst.jpg" 
+          <img [src]="perfil" 
             class="img-fluid" id="perfil" alt="Foto del perfil">
-          <p class="datos">Stella Maris Salgado <br>Full Stack Developer Junior</p>
+          <p class="datos">{{nombre}} {{apellido}} <br> {{programador}}</p>
         </div>
         <div class="col-sm-12">
               <h1 class="fuente" >Acerca de...</h1> 
-                <p> Me considero una persona proactiva, organizada
-                  y responsable, con buenas relaciones interpersonales, teniendo 
-                  a lo largo de mi carrera experiencia de 
-                  trabajo en equipo, tanto en forma presencial como remota.
-                  <br>Te invito a recorrer mi portfolio, haciendo scroll
-                  o dirigiéndote a la sección que te interese, haciendo clic en el menú.
+                <p> {{about}}
+                  <br>{{invito}}
                 </p>
         </div>
     <!--Menú recorrer portfolio-->

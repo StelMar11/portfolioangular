@@ -12,6 +12,8 @@ export class BannerComponent implements OnInit{
   programador: any;
   about: any;
   invito: any;
+  perfil: any;
+  banner: any;
   constructor (private datos:DatosService){}
   ngOnInit(): void {
     this.datos.getDatos().subscribe(data =>{
@@ -20,6 +22,8 @@ export class BannerComponent implements OnInit{
       this.programador=data.programador;
       this.about=data.about;
       this.invito=data.invito;
+      this.perfil=data.perfil;
+      this.banner=data.banner
     })
     
   }

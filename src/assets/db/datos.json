@@ -1,20 +1,25 @@
 {
+  "vinculos":[{
+  "logo": "../assets/asset/img/logoArgProgne.png",
   "url-linkedin":"https://www.linkedin.com/in/stella-maris-salgado-95099838/",
   "url-github":"https://github.com/StelMar11",
   "url-discord":"https://discord.com/channels/@me",
-  "url-telegrm":"https://web.telegram.org/k/",
-  "banner-img": "../../asset/img/bannersit.png",
-  "img-perfil":"../../asset/img/fotoPerfilst.jpg",
-  "nombre":"StellaMaris",
+  "url-telegrm":"https://web.telegram.org/k/"
+    }
+  ],
+  "banner": "../assets/asset/img/bannersit.png",
+  "perfil":"../assets/asset/img/fotoPerfilst.jpg",
+  "nombre":"Stella Maris",
   "apellido":"Salgado",
   "programador":"Full Stack Developer Junior",
   "about": "Me considero una persona proactiva, organizada, y responsable, con buenas relaciones interpersonales, teniendo a lo largo de mi carrera experiencia de trabajo en equipo, tanto en forma presencial como remota.",
   "invito": "Te invito a recorrer mi portfolio, haciendo scroll o dirigiéndote a la sección que te interese, haciendo clic en Menú.",
 
+
    "experiencias":[
     {
       "id":1,
-      "img":"../../asset/img/escuelaGe.jpg",
+      "img":"../../assets/img/escuelaGe.jpg",
       "actividad":"Docente de Nivel Primario",
       "descripcion": "Docente de nivel primario en la escuela General San Martín, San Javier, provincia de Córdoba",
       "inicio": "03/08/2009",
@@ -22,7 +27,7 @@
     },
     {
       "id":2,
-      "img":"../../asset/img/congresoEducExpo.jpg",
+      "img":"../assets/asset/img/congresoEducExpo.jpg",
       "actividad":"Congreso Provincial de Ciencias y Tecnologías",
       "descripcion": "Presenté como expositora el taller: Ajedrez en la escuela",
       "inicio": "16/09/2015",
@@ -30,7 +35,7 @@
     },
     {
       "id":3,
-      "img":"../../asset/img/feriaDeCiencias3.jpg",
+      "img":"../assets/asset/img/feriaDeCiencias3.jpg",
       "actividad":"Feria de Ciencias y Tecnología",
       "descripcion": "Instancia zonal y Provincial, realizadas de manera virtual, utilizando variados recursos y herramientas tecnológicas, para la presentación del proyecto.",
       "inicio": "15/04/2021",
@@ -40,7 +45,7 @@
   "educaciones":[
     {
       "id":1,
-      "img-certf":"../../asset/img/tituloDocente.jpeg",
+      "img-certf":"../assets/asset/img/tituloDocente.jpeg",
       "titulo":"Maestra especializada en Educación Primaria",
       "institucion":"Instituto de Formación Docente N°45",
       "modalidad":"Nivel Terciariario - Haedo-Buenos Aires",
@@ -49,7 +54,7 @@
     },
     {
       "id":2,
-      "img-certf":"../../asset/img/postitulEductic.jpeg",
+      "img-certf":"../assets/asset/img/postitulEductic.jpeg",
       "titulo":"Especialista Docente de Nivel Superior en Educación y TIC",
       "institucion":"Instituto Superior Dr. Carlos María Carena",
       "modalidad":"Mina Clavero, Córdoba",
@@ -58,7 +63,7 @@
     },
     {
       "id":3,
-      "img-certf":"../../asset/img/argentinaProg.jpg",
+      "img-certf":"../assets/asset/img/argentinaProg.jpg",
       "titulo":"Certificado: Sé Programar",
       "institucion":"Plan Argentina Programa ",
       "modalidad":"Modalidad:virtual",
@@ -67,7 +72,7 @@
     },
    {
     "id":4,
-    "img-certf":"../../asset/img/cursoEdC.jpg",
+    "img-certf":"../assets/asset/img/cursoEdC.jpg",
     "titulo":"Curso: Introducción a la programación: Lenguaje C y C++",
     "institucion":"Eddis Educativa",
     "modalidad":"Modalidad virtual.",
@@ -76,7 +81,7 @@
    },
    {
     "id":5,
-    "img-certf":"../../asset/img/htmlcss1.png",
+    "img-certf":"../assets/asset/img/htmlcss1.png",
     "titulo":"Curso:HTML y CSS desde cero",
     "institucion":"TodoCode Academy",
     "modalidad":"Modalidad virtual.",
@@ -85,7 +90,7 @@
    },
    {
     "id":6,
-    "img-certf":"../../asset/img/títuloFa.jpg",
+    "img-certf":"../assets/asset/img/títuloFa.jpg",
     "titulo":"Argentina Programa: Yo programo",
     "institucion":"Plan Argentina Programa",
     "modalidad":"Modalidad virtual.",
@@ -94,7 +99,7 @@
    },
    {
     "id":7,
-    "img-certf":"../../asset/img/gitHub.jpg",
+    "img-certf":"../assets/asset/img/gitHub.jpg",
     "titulo":"Curso: Git y GitHub",
     "institucion":"TodoCode Academy",
     "modalidad":"Modalidad virtual.",
@@ -103,7 +108,7 @@
    },
    {
     "id":8,
-    "img-certf":"../../asset/img/baseDatos.jpg",
+    "img-certf":"../assets/asset/img/baseDatos.jpg",
     "titulo":"Curso: Base de Datos Relacionales(con MySQL)",
     "institucion":"TodoCode Academy.",
     "modalidad":"Modalidad virtual.",
@@ -112,7 +117,7 @@
    },
    {
     "id":9,
-    "img-certf":"../../asset/img/javaPricipcertif.jpg",
+    "img-certf":"../assets/asset/img/javaPricipcertif.jpg",
     "titulo":"Curso: Java para Principiantes.",
     "institucion":"TodoCode Academy.",
     "modalidad":"Modalidad virtual.",
@@ -161,21 +166,21 @@
   "proyectos":[
     {
       "id":1,
-      "img-proyec":"../../asset/img/pie_pap_tij.png",
+      "img-proyec":"../assets/asset/img/pie_pap_tij.png",
       "nombre":"Juego: Piedra, papel o tijera.",
       "lenguaje":"Lenguaje C",
       "descripcion":"Proyecto de práctica realizado en lenguaje C, donde el usuario juega con la máquina, que en forma aleatoria elige un número que representa un elemento del juego. Al finalizar se muestra por pantalla quién ganó. "
     },
     {
       "id":2,
-      "img-proyec":"../../asset/img/calendario_unido.jpg",
+      "img-proyec":"../assets/asset/img/calendario_unido.jpg",
       "nombre":"Calendario",
       "lenguaje":"Lenguaje C++",
       "descripcion":"Proyecto de práctica, la propuesta es que el usuario conozca  el día de la semana en que nació, para eso debe ingresar su fecha de nacimiento y por pantalla, el programa muestra el calendario del año ingresado."
     },
     {
       "id":3,
-      "img-proyec":"../../asset/img/cajero_c.png",
+      "img-proyec":"../assets/asset/img/cajero_c.png",
       "nombre":"Cajero automático",
       "lenguaje":"Lenguaje C++",
       "descripcion":"Proyecto de práctica, en el cuál el programa interactuando con el usuario, brinda información sobre diversas operaciones que se van realizando."
