@@ -20,6 +20,10 @@ body{
   .centrado{
     text-align: center;
   }
+  /*Estilo div del ngFor*/
+  .alinear{
+    display: flex;
+}
   /*Estilo menu*/
     .dropdown{
       text-align:end
@@ -42,10 +46,9 @@ body{
   /*Estilo de las img de las section*/
   .img-thumbnail{
     display:flex;
-    width: 90%;
+    width: 50%;
     height: 10rem;
-    text-align: center;
-    border-image: auto;
+     border-image: auto;
     transition: all 300ms;
     position: relative;
     border-radius: 10%;
