@@ -19,7 +19,7 @@
    "experiencias":[
     {
       "id":1,
-      "img":"../../assets/img/escuelaGe.jpg",
+      "img":"../assets/asset/img/escuelaGe.jpg",
       "actividad":"Docente de Nivel Primario",
       "descripcion": "Docente de nivel primario en la escuela General San Martín, San Javier, provincia de Córdoba",
       "inicio": "03/08/2009",
