@@ -1,0 +1,18 @@
+#proyec{
+    margin: 0%;
+}
+#fotoProy{
+    width: 30vw;
+    margin: 0;
+    }
+#photoProy{
+    margin:auto;
+    padding: 1rem;
+}
+.text{
+     padding-top: 2rem;
+   
+}
+p{
+    text-align: justify;
+}

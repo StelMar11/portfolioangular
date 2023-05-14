@@ -18,6 +18,7 @@
   "tituloExpe": "Experiencia",
   "tituloEduc":"Educación",
   "tituloHabil":"Habilidades",
+  "tituloProy":"Proyectos",
 
    "experiencias":[
     {
@@ -169,21 +170,21 @@
   "proyectos":[
     {
       "id":1,
-      "img-proyec":"../assets/asset/img/pie_pap_tij.png",
+      "imgProyec":"../assets/asset/img/pie_pap_tij.png",
       "nombre":"Juego: Piedra, papel o tijera.",
       "lenguaje":"Lenguaje C",
       "descripcion":"Proyecto de práctica realizado en lenguaje C, donde el usuario juega con la máquina, que en forma aleatoria elige un número que representa un elemento del juego. Al finalizar se muestra por pantalla quién ganó. "
     },
     {
       "id":2,
-      "img-proyec":"../assets/asset/img/calendario_unido.jpg",
+      "imgProyec":"../assets/asset/img/calendario_unido.jpg",
       "nombre":"Calendario",
       "lenguaje":"Lenguaje C++",
       "descripcion":"Proyecto de práctica, la propuesta es que el usuario conozca  el día de la semana en que nació, para eso debe ingresar su fecha de nacimiento y por pantalla, el programa muestra el calendario del año ingresado."
     },
     {
       "id":3,
-      "img-proyec":"../assets/asset/img/cajero_c.png",
+      "imgProyec":"../assets/asset/img/cajero_c.png",
       "nombre":"Cajero automático",
       "lenguaje":"Lenguaje C++",
       "descripcion":"Proyecto de práctica, en el cuál el programa interactuando con el usuario, brinda información sobre diversas operaciones que se van realizando."
