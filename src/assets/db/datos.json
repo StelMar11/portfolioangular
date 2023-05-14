@@ -17,6 +17,7 @@
   "invito": "Te invito a recorrer mi portfolio, haciendo scroll o dirigiéndote a la sección que te interese, haciendo clic en Menú.",
   "tituloExpe": "Experiencia",
   "tituloEduc":"Educación",
+  "tituloHabil":"Habilidades",
 
    "experiencias":[
     {
@@ -131,38 +132,38 @@
     {
       "id":1,
       "categoria":"HTML",
-      "porcentaje":"80"
+      "porcentaje":80
     },
     {
       "id":2,
       "categoria":"CSS",
-      "porcentaje":"70"
+      "porcentaje":70
     },
     {
       "id":3,
       "categoria":"JAVACRIPT",
-      "porcentaje":"50"
+      "porcentaje":50
     },
     {
       "id":4,
       "categoria":"JAVA",
-      "porcentaje":"70"
+      "porcentaje":70
     },
     {
       "id":5,
       "categoria":"GIT Y GITHUB",
-      "porcentaje":"75"
+      "porcentaje":75
       
     },
     {
       "id":6,
       "categoria":"COMUNICACIÓN",
-      "porcentaje":"90"
+      "porcentaje":90
     },
     {
       "id":7,
       "categoria":"SOCIALIZACIÓN",
-      "porcentaje":"90"
+      "porcentaje":90
     }
   ],
   "proyectos":[

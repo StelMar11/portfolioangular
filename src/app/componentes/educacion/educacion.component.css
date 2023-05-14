@@ -17,12 +17,7 @@
 p{
     text-align: justify;
 }
-/*row{
-   display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-}*/
+
 #formacion{
     display:inline-flex;
     flex-direction: row;

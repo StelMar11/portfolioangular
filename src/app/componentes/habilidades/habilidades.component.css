@@ -2,18 +2,19 @@
 .barra{
    box-sizing: border-box;
    display: flex;
-    width: 80%;
+    width: 100%;
     height: 1.5rem;
     border-radius: 3rem;
     border-color:#d466ef ;
     box-shadow: 3px 3px rgb(104, 104, 147, 0.6);
     margin:auto;
     padding: 0;
-    color: aliceblue;
+    color: rgb(5, 33, 57);
     font-weight: bold;
     background-color: aliceblue;
     justify-items: center;
     align-items: center;
+    
   }
   .html{
     background-color:  rgb(123, 244, 244);
@@ -74,3 +75,21 @@
   .skill:hover {
     animation: forwards 5s ease;
   }
+  #habil{
+    margin: 0%;
+}
+p{
+    text-align: justify;
+}
+
+#skillSoft{
+  display:inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 97vw;
+}
+.row{
+  padding: 3rem;
+  
+}
