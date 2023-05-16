@@ -20,6 +20,10 @@ body{
   .centrado{
     text-align: center;
   }
+  /*quita margen blanco*/
+  .espacio{
+    margin: 0%;
+}
   /*Estilo div del ngFor*/
   .alinear{
     display: flex;
@@ -46,8 +50,8 @@ body{
   /*Estilo de las img de las section*/
   .img-thumbnail{
     display:flex;
-    width: 50vw;
-    height: 10rem;
+    width: 20vw;
+    height: 8rem;
     border-image: auto;
     transition: all 300ms;
     position: relative;
