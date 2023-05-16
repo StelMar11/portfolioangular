@@ -8,12 +8,12 @@ import { DatosService } from 'src/app/servicios/datos.service';
 })
 export class HabilidadesComponent implements OnInit{
   habilidad: any;
-  tituloHabil: string='';
+  
   constructor(private datos:DatosService){}
   ngOnInit(): void {
     this.datos.getDatos().subscribe(data =>{
       this.habilidad=data.habilidades;
-      this.tituloHabil=data.tituloHabil
+      
     })
     
   }

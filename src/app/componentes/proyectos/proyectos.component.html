@@ -1,6 +1,6 @@
   <!--Proyectos-->
   <section class="proyectos">
-    <h2 class="titulo fondo" id="proyec">{{tituloProy}}</h2>
+    <h2 class="titulo fondo">Proyectos</h2>
 
     <div class="dropdown fondo" id="menu">
       <button class="btn btn-color dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -16,7 +16,7 @@
 
     <div class="container-flex fondo">
       <div class="row" id="fotoProy" *ngFor="let proyecto of proyecto">
-        <div class="col">
+        <div class="col-auto">
           <img class="img-fluid img-thumbnail" id="photoProy" [src]="proyecto.imgProyec" alt="Foto del codigo del juego"/><br>
           <h3 class="fuente2">{{proyecto.nombre}}<br> {{proyecto.lenguaje}}</h3>
           <p>{{proyecto.descripcion}}</p>
