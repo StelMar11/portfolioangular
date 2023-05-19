@@ -4,12 +4,13 @@
     <!--<div class=""-->
   <div class="container-flex fondo" id="skillSoft" >
     <div class="row"  *ngFor="let habilidad of habilidad">
-      <div class="col-6" >
+      <div class="col" >
         <p>{{habilidad.categoria}}</p>
-      </div>
+      
       <div  class="barra" >
             <div class="skill html">{{habilidad.porcentaje}}</div>
         </div>
+      </div>
     </div>
   </div>
 </section>

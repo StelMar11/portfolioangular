@@ -31,7 +31,7 @@
   }
   @keyframes fillcss{
     0% {width: 0%;}
-    100% {width: 75%;}
+    100% {width: 80%;}
   }
   .js{
     background-color:rgb(63, 214, 248) ;
@@ -55,7 +55,7 @@
   }
   @keyframes fillgit{
     0% {width: 0%;}
-    100% {width: 75%;}
+    100% {width: 80%;}
   }
   .com{
     background-color: rgb(30, 207, 247);
