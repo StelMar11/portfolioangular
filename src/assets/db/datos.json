@@ -88,17 +88,9 @@
     "inicio":"03/01/2023",
     "fin":"15/02/2023"
    },
+    
    {
     "id":6,
-    "imgCertif":"../assets/asset/img/títuloFa.jpg",
-    "titulo":"Argentina Programa: Yo programo",
-    "institucion":"Plan Argentina Programa",
-    "modalidad":"Modalidad virtual.",
-    "inicio":"30/10/2022",
-    "fin":"20/05/2023"
-   },
-   {
-    "id":7,
     "imgCertif":"../assets/asset/img/gitHub.jpg",
     "titulo":"Curso: Git y GitHub",
     "institucion":"TodoCode Academy",
@@ -107,7 +99,7 @@
     "fin":"05/03/2023"
    },
    {
-    "id":8,
+    "id":7,
     "imgCertif":"../assets/asset/img/baseDatos.jpg",
     "titulo":"Curso: Base de Datos Relacionales(con MySQL)",
     "institucion":"TodoCode Academy.",
@@ -116,7 +108,7 @@
     "fin":"03/03/2023"
    },
    {
-    "id":9,
+    "id":8,
     "imgCertif":"../assets/asset/img/javaPricipcertif.jpg",
     "titulo":"Curso: Java para Principiantes.",
     "institucion":"TodoCode Academy.",

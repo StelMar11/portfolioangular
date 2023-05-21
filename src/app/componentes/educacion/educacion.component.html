@@ -2,13 +2,13 @@
  <section class="formacion">
       <h2 class="titulo fondo espacio">Educación</h2>
     <div class="container-flex fondo" id="formacion">
-      <div class="row" id="fotoEd" *ngFor="let educacion of educacion">
-       <div class="col-auto">
-            <img class="img-fluid img-thumbnail" id="eduk" [src]="educacion.imgCertif" alt="Foto Título docente"><br>
+      <div class="row fotoEd"  *ngFor="let educacion of educacion">
+       <div class="col-sm-12">
+            <img class="img-fluid img-thumbnail eduk"  [src]="educacion.imgCertif" alt="Foto Título docente"><br>
           <div class="text">
             <h5 class="fuente2">{{educacion.titulo}}</h5>
-            <p>{{educacion.instiucion}}{{educacion.modalidad}}<br>
-               Inicio:{{educacion.inicio}}  Fin: {{educacion.fin}}
+            <p>{{educacion.instiucion}}{{educacion.modalidad}}</p>
+              <p> Inicio:{{educacion.inicio}}  Fin: {{educacion.fin}}
             </p>
           </div>
         </div>   
