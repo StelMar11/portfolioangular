@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 
 import { AppComponent } from './app.component';
+import { LoginComponent } from './componentes/login/login.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
@@ -26,7 +27,6 @@ import { ModalLoginComponent } from './componentes/modalesSi/modal-login/modal-l
 import { ModalLogoutComponent } from './componentes/modalesSi/modal-logout/modal-logout.component';
 import { IndexComponent } from './componentes/index/index.component';
 import { Pagina404Component } from './componentes/pagina404/pagina404.component';
-import { LoginComponent } from './componentes/login/login.component';
 import { LogoutComponent } from './componentes/logout/logout.component';
 
 @NgModule({

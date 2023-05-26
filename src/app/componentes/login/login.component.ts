@@ -8,11 +8,12 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
   form: FormGroup;
+  
 
   constructor(private formBuilder: FormBuilder){ 
     this.form= this.formBuilder.group({
-      email:['', [Validators.required, Validators.email]],
       password:['',[Validators.required, Validators.minLength(8)]],
+      email:['', [Validators.required, Validators.email]],
       })
   }
   
@@ -31,7 +32,7 @@ export class LoginComponent implements OnInit {
   }
 
   get MailValid() {
-    return false;
+    return this.Mail?.touched && !this.Mail?.valid;
   }
  
 
