@@ -1,16 +1,15 @@
 
 .fotoEd{
-    margin: 1rem;
+    margin: 0.3rem;
     }
 .eduk{
     width: 20vw;
-    margin:auto;
-    margin: 0.5rem;
+    margin:0;
     float: left;
    
 }
 .text{
-     padding: 1rem;
+     padding: 0.5rem;
    
 }
 p{
@@ -22,6 +21,6 @@ p{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 1rem;
+    padding: 0.2rem;
 }
 
