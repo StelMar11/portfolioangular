@@ -56,10 +56,10 @@ import { LogoutComponent } from './componentes/logout/logout.component';
     LogoutComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    AppRoutingModule,
     HttpClientModule
     
   ],

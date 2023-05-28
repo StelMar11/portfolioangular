@@ -7,9 +7,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  form: FormGroup;
   
-
+  form: FormGroup;
   constructor(private formBuilder: FormBuilder){ 
     this.form= this.formBuilder.group({
       password:['',[Validators.required, Validators.minLength(8)]],
