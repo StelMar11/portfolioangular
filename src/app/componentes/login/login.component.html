@@ -1,4 +1,5 @@
-<form [formGroup]="form"    (ngSubmit)="onEnviar($event)">    
+<form [formGroup]="form"    (ngSubmit)="onEnviar($event)"  >  
+  <div id="loginModal">  
   <div>
       <label for="email">Email: </label>                          
       <input type="email" formControlName="email" [class.border-danger]="MailValid">
@@ -28,19 +29,10 @@
   </p>
 </div>
   <br/>
-  <div>
-    <button   type="submit">Iniciar Sesión</button>
+  <div data-bs-target="#loginModal">
+    <button   type="submit"><i class="fa-solid fa-lock"></i></button>
+</div>
 </div>
 </form>
 
-<!--<div>
-<p> <strong>{{form.value.email}} </strong><strong>{{form.value.password}} </strong></p> 
-<br>
-ESTE ES EL BOTON ORIGINAL
-<div>
-    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#loginModal">
-     <i class="fa-solid fa-lock"></i>
-    </button>
-  </div>
 
-</div>-->
