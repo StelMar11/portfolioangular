@@ -40,7 +40,7 @@ export class LoginComponent implements OnInit {
     event.preventDefault; 
  
     if (this.form.valid){
-      alert("Todo salio bien ¡Enviar formuario!")
+      alert("Todo salio bien ¡Enviar formulario!")
     }else{     
       this.form.markAllAsTouched(); 
     }
