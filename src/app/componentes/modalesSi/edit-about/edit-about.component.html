@@ -1,5 +1,5 @@
 <!-- Modal Editar texto acerca de-->
-<form>
+<form [formGroup]="form">
 <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -10,7 +10,7 @@
         <div class="modal-body">
           
             <div class="mb-3">
-              <label for="aboutTextarea1" class="form-label">Escribir texto</label>
+              <label for="text" class="form-label">Escribir texto</label>
               <textarea class="form-control" id="aboutFormControlTextarea1" rows="3"></textarea>
               <input class="btn btn-dark" type="reset" value="Eliminar">
             </div>
