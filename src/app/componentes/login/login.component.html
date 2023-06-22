@@ -1,12 +1,13 @@
+
 <form [formGroup]="form"    (ngSubmit)="onEnviar($event)"  >  
   <div id="loginModal">  
   <div>
-      <label for="text">Texto: </label>                          
-      <input type="text" formControlName="text">
+      <label for="email">Email: </label>                          
+      <input type="email" formControlName="email" [class.border-danger]="MailValid">
   </div>
   
-  <div *ngIf= "Password?.errors  && Password?.touched">    
-      <p *ngIf= "Password?.hasError('required')" class="error">
+  <div *ngIf= "Mail?.errors  && Mail?.touched">    
+      <p *ngIf= "Mail?.hasError('required')" class="error">
           El email es requerido.
       </p>
       <p *ngIf="Mail?.hasError('email')" class="error">
@@ -30,7 +31,7 @@
 </div>
   <br/>
   <div data-bs-target="#loginModal">
-    <button   type="submit"><i class="fa-solid fa-lock"></i></button>
+    <button   type="submit">Enviar</button>
 </div>
 </div>
 </form>
