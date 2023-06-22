@@ -1,5 +1,46 @@
 
-<form [formGroup]="form"    (ngSubmit)="onEnviar($event)"  >  
+ <!--Modal Login-->
+ <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="loginModalLabel">Registrarse</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="form"    (ngSubmit)="onEnviar($event)">
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="loginInputEmail1" aria-describedby="emailHelp" [class.border-danger]="MailValid">
+            <div *ngIf= "Mail?.errors  && Mail?.touched">    
+              <p *ngIf= "Mail?.hasError('required')" class="error">
+                  El email es requerido.
+              </p>
+              <p *ngIf="Mail?.hasError('email')" class="error">
+                  El formato del email no es válido.
+                </p>
+          </div>
+          <br>
+          <div class="mb-3">
+            <label for="loginInputPassword1" class="form-label">Password</label>
+            <input type="password"  formControlName="password" [class.border-danger]="PasswordValid">
+          </div>
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Iniciar sesión</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!--<form [formGroup]="form"    (ngSubmit)="onEnviar($event)">  
   <div id="loginModal">  
   <div>
       <label for="email">Email: </label>                          
@@ -34,6 +75,6 @@
     <button   type="submit">Iniciar Sesión</button>
 </div>
 </div>
-</form>
+</form>-->
 
 
