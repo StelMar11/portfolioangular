@@ -11,7 +11,7 @@
         <form [formGroup]="form"    (ngSubmit)="onEnviar($event)">
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="loginInputEmail1" aria-describedby="emailHelp" [class.border-danger]="MailValid">
+            <input type="email" formControlName="email" [class.border-danger]="MailValid">
             <div *ngIf= "Mail?.errors  && Mail?.touched">    
               <p *ngIf= "Mail?.hasError('required')" class="error">
                   El email es requerido.
@@ -25,7 +25,14 @@
             <label for="loginInputPassword1" class="form-label">Password</label>
             <input type="password"  formControlName="password" [class.border-danger]="PasswordValid">
           </div>
-       
+          <div *ngIf="Password?.errors  && Password?.touched">
+            <p *ngIf="Password?.hasError('required')" class="error">
+              El password es requerido.
+            </p>
+            <p *ngIf="Password?.errors?.['minlength']" class="error">
+              El password debe ser de 8 o más caracteres.
+            </p>
+          </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -40,41 +47,6 @@
 
 
 
-<!--<form [formGroup]="form"    (ngSubmit)="onEnviar($event)">  
-  <div id="loginModal">  
-  <div>
-      <label for="email">Email: </label>                          
-      <input type="email" formControlName="email" [class.border-danger]="MailValid">
-  </div>
-  
-  <div *ngIf= "Mail?.errors  && Mail?.touched">    
-      <p *ngIf= "Mail?.hasError('required')" class="error">
-          El email es requerido.
-      </p>
-      <p *ngIf="Mail?.hasError('email')" class="error">
-          El formato del email no es válido.
-        </p>
-  </div>
 
-  <br/>
-  <div>
-      <label for="exampleInputPassword1" class="form-label">Password: </label>
-      <input type="password" formControlName="password" [class.border-danger]="PasswordValid" >
-  </div>
- 
-  <div *ngIf="Password?.errors  && Password?.touched">
-  <p *ngIf="Password?.hasError('required')" class="error">
-    El password es requerido.
-  </p>
-  <p *ngIf="Password?.errors?.['minlength']" class="error">
-    El password debe ser de 8 o más caracteres.
-  </p>
-</div>
-  <br/>
-  <div data-bs-target="#loginModal">
-    <button   type="submit">Iniciar Sesión</button>
-</div>
-</div>
-</form>-->
 
 
