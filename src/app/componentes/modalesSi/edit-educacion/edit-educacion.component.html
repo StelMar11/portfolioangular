@@ -1,6 +1,6 @@
 <!--Modal Editar Educacion-->
          <!--Modal Editar Titulo-->
-         <form>
+         
          <div class="modal fade" id="tituloModal" tabindex="-1" aria-labelledby="tituloModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -9,7 +9,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                 
+                  <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                     <div class="mb-3">
                       <label for="imgTitulo" class="form-label">Editar Título</label>
                       <input type="url" placeholder="inserte url de imagen" id="imgTitulo" name="imgTitulo" >
@@ -20,18 +20,17 @@
                       <textarea class="form-control" id="tituloFormControlTextarea1" rows="3"></textarea>
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
-                 
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Enviar</button>
-                </div>
+                   <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Enviar</button>
+                  </div>
+              </form>
               </div>
             </div>
           </div>
-        </form>
+        
                     <!--Modal Editar TICs-->
-        <form>
+       
           <div class="modal fade" id="ticsModal" tabindex="-1" aria-labelledby="ticsModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -40,7 +39,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  
+                  <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                     <div class="mb-3">
                       <label for="imgTics" class="form-label">Editar Título</label>
                       <input type="url" placeholder="inserte url de imagen" id="imgTics" name="imgTics" >
@@ -51,18 +50,17 @@
                       <textarea class="form-control" id="ticsFormControlTextarea1" rows="3"></textarea>
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
-                  
-                </div>
-                <div class="modal-footer">
+                  <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                   <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
+              </form>
               </div>
             </div>
           </div>
-        </form>
+       
                   <!--Modal Editar Se Programar-->
-        <form>
+        
           <div class="modal fade" id="seProgModal" tabindex="-1" aria-labelledby="seProgModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -71,7 +69,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  
+                  <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                     <div class="mb-3">
                       <label for="imgSeProg" class="form-label">Editar imagen certificado</label>
                       <input type="url" placeholder="inserte url de imagen" id="imgSeProg" name="imgSeProg" >
@@ -83,17 +81,18 @@
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
                   
-                </div>
+                
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                   <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
+              </form>
               </div>
             </div>
           </div>
-        </form>
+        
                   <!--Modal Editar curso C-->
-        <form>
+        
           <div class="modal fade" id="cursoCModal" tabindex="-1" aria-labelledby="cursoCModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -102,7 +101,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  
+                  <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                     <div class="mb-3">
                       <label for="imgCursoC" class="form-label">Editar imagen certificado</label>
                       <input type="url" placeholder="inserte url de imagen" id="imgCursoC" name="imgCursoC" >
@@ -114,17 +113,18 @@
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
                   
-                </div>
+                
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                   <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
+              </form>
               </div>
             </div>
           </div>
-        </form>
+        
                   <!--Modal Editar HTML y CSS-->
-        <form>
+       
           <div class="modal fade" id="htmlCssModal" tabindex="-1" aria-labelledby="htmlCssModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -133,7 +133,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  
+                  <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                     <div class="mb-3">
                       <label for="imgHtmlCss" class="form-label">Editar imagen certificado</label>
                       <input type="url" placeholder="inserte url de imagen" id="imgHtmlCss" name="imgHtmlCss" >
@@ -145,17 +145,18 @@
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
                  
-                </div>
+                
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                   <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
+              </form>
               </div>
             </div>
           </div>
-        </form>
+        
                   <!--Modal Editar Yo Programo-->
-       <form>
+      
           <div class="modal fade" id="yoProgModal" tabindex="-1" aria-labelledby="yoProgModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -164,7 +165,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                 
+                  <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                     <div class="mb-3">
                       <label for="imgYoProg" class="form-label">Editar imagen certificado</label>
                       <input type="url" placeholder="inserte url de imagen" id="imgYoProg" name="imgYoProg" >
@@ -176,17 +177,18 @@
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
                   
-                </div>
+               
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                   <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
+              </form>
               </div>
             </div>
           </div>
-        </form>
+        
                   <!--Modal Editar Curso GIT-->
-        <form>
+        
           <div class="modal fade" id="gitModal" tabindex="-1" aria-labelledby="gitModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -195,7 +197,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  
+                  <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                     <div class="mb-3">
                       <label for="imgGit" class="form-label">Editar imagen certificado</label>
                       <input type="url" placeholder="inserte url de imagen" id="imgGit" name="imgGit" >
@@ -207,17 +209,18 @@
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
                  
-                </div>
+               
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                   <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
+              </form>
               </div>
             </div>
           </div>
-        </form>
+        
                   <!--Modal Editar Curso Base de Datos-->
-        <form>
+        
           <div class="modal fade" id="baseDatosModal" tabindex="-1" aria-labelledby="baseDatosModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -226,7 +229,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  
+                  <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                     <div class="mb-3">
                       <label for="imgBaseDatos" class="form-label">Editar imagen certificado</label>
                       <input type="url" placeholder="inserte url de imagen" id="imgBaseDatos" name="imgBaseDatos" >
@@ -238,17 +241,18 @@
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
                   
-                </div>
+                
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                   <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
+              </form>
               </div>
             </div>
           </div>
-        </form>
+       
                   <!--Modal Editar java-->
-        <form>
+       
           <div class="modal fade" id="javaModal" tabindex="-1" aria-labelledby="javaModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -257,7 +261,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  
+                  <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                     <div class="mb-3">
                       <label for="imgJava" class="form-label">Editar imagen certificado</label>
                       <input type="url" placeholder="inserte url de imagen" id="imgJava" name="imgJava" >
@@ -269,12 +273,13 @@
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
                   
-                </div>
+                
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                   <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
+              </form>
               </div>
             </div>
           </div>
-        </form>
+        
