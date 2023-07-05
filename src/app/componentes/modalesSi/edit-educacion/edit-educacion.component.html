@@ -11,20 +11,22 @@
                 <div class="modal-body">
                   <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                     <div class="mb-3">
-                      <label for="imgTitulo" class="form-label">Editar Título</label>
-                      <input type="url" placeholder="inserte url de imagen" id="imgTitulo" name="imgTitulo" >
+                      <label for="url1" class="form-label">Editar Título</label>
+                      <input type="url1" placeholder="inserte url de imagen" id="imgTitulo" formControlName="url1" >
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
                     <div class="mb-3">
-                      <label for="tituloTextarea1" class="form-label">Escribir texto</label>
-                      <textarea class="form-control" id="tituloFormControlTextarea1" rows="3"></textarea>
+                      <label for="text1" class="form-label">Escribir texto</label>
+                      <input type="text1" placeholder="inserte texto" formControlName="text1">
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
-                   <div class="modal-footer">
+                  </form>
+                    <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                       <button type="button" class="btn btn-primary">Enviar</button>
                   </div>
-              </form>
+             
+            </div>
               </div>
             </div>
           </div>
@@ -42,19 +44,20 @@
                   <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                     <div class="mb-3">
                       <label for="imgTics" class="form-label">Editar Título</label>
-                      <input type="url" placeholder="inserte url de imagen" id="imgTics" name="imgTics" >
+                      <input type="url2" placeholder="inserte url de imagen" id="imgTics" name="imgTics" >
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
                     <div class="mb-3">
                       <label for="ticsTextarea1" class="form-label">Escribir texto</label>
-                      <textarea class="form-control" id="ticsFormControlTextarea1" rows="3"></textarea>
+                      <input type="text2">
                       <input class="btn btn-dark" type="reset" value="Eliminar">
                     </div>
+                  </form>
                   <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                   <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
-              </form>
+              
               </div>
             </div>
           </div>
