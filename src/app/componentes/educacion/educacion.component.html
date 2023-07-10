@@ -19,61 +19,61 @@
    <!-- Botones editar Educación-->
    <section id="editEducacion" class="bg-dark">
     <div class="container text-center">
-      <div class="row">
+      <div class="row" *ngFor="let educacion of educacion">
         <div class="col">
         <!--Button trigger titulo docente-->
           <button type="button" class="btn btn-dark" 
             data-bs-toggle="modal" data-bs-target="#tituloModal">
-              Editar Título 
+              Editar {{educacion.id}}
           </button>
           <app-edit-educacion></app-edit-educacion>
-        <!--Button trigger TICs-->
+        <!--Button trigger TICs
           <button type="button" class="btn btn-dark" 
-            data-bs-toggle="modal" data-bs-target="#ticsModal">
+            data-bs-toggle="modal" data-bs-target="#ticsModal" id="2">
             Editar TICs
           </button>
-          <app-edit-educacion></app-edit-educacion>
-        <!--Button trigger Se Programar-->
+          <app-edit-educacion></app-edit-educacion>-->
+        <!--Button trigger Se Programar
           <button type="button" class="btn btn-dark" 
             data-bs-toggle="modal" data-bs-target="#seProgModal">
             Editar Sé Programar 
           </button>
-          <app-edit-educacion></app-edit-educacion>
-        <!--Button trigger Curso C-->
+          <app-edit-educacion></app-edit-educacion>-->
+        <!--Button trigger Curso C
           <button type="button" class="btn btn-dark" 
             data-bs-toggle="modal" data-bs-target="#cursoCModal">
             Editar Curso C 
           </button>
-          <app-edit-educacion></app-edit-educacion>
-        <!--Button trigger HTML y CSS-->
+          <app-edit-educacion></app-edit-educacion>-->
+        <!--Button trigger HTML y CSS
           <button type="button" class="btn btn-dark" 
             data-bs-toggle="modal" data-bs-target="#htmlCssModal">
               Editar HTML y CSS
           </button>
-          <app-edit-educacion></app-edit-educacion>
-        <!--Button trigger Yo Programo-->
+          <app-edit-educacion></app-edit-educacion>-->
+        <!--Button trigger Yo Programo
           <button type="button" class="btn btn-dark" 
             data-bs-toggle="modal" data-bs-target="#yoProgModal">
              Editar Yo Programo 
           </button>
-          <app-edit-educacion></app-edit-educacion>
-        <!--Button trigger GIT-->
+          <app-edit-educacion></app-edit-educacion>-->
+        <!--Button trigger GIT
           <button type="button" class="btn btn-dark" 
             data-bs-toggle="modal" data-bs-target="#gitModal">
             Editar git
           </button>
-          <app-edit-educacion></app-edit-educacion>
-        <!--Button trigger base datos-->
+          <app-edit-educacion></app-edit-educacion>-->
+        <!--Button trigger base datos
           <button type="button" class="btn btn-dark" 
             data-bs-toggle="modal" data-bs-target="#baseDatosModal">
             Editar BD
-          </button>
-        <!--Button trigger JAVA-->
+          </button>-->
+        <!--Button trigger JAVA
           <button type="button" class="btn btn-dark" 
             data-bs-toggle="modal" data-bs-target="#javaModal">
             Editar JAVA
           </button>
-          <app-edit-educacion></app-edit-educacion>
+          <app-edit-educacion></app-edit-educacion>-->
         </div>
       </div>
     </div>

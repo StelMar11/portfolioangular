@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validator, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-edit-educacion',
@@ -7,29 +7,24 @@ import { FormBuilder, FormGroup, Validator, Validators } from '@angular/forms';
   styleUrls: ['./edit-educacion.component.css']
 })
 export class EditEducacionComponent implements OnInit {
-  form: FormGroup;
+ public form: FormGroup;
   constructor (private formBuilder: FormBuilder){
     this.form= this.formBuilder.group({
-      text1:[' ', [Validators.required]],
-      url1:[' ', [Validators.required]],
-      text2:[' ', [Validators.required]],
-      url2:[' ', [Validators.required]],
-
+      url:[' ', [Validators.required]],
+      text:[' ', [Validators.required]],
+      date:['', [Validators.required]]
+      
+      
     })
   }
   ngOnInit(): void {}
-    get Text1(){
-      return this.form.get("text1");
+    get Text(){
+      return this.form.get("text");
       }
-      get Url1(){
-        return this.form.get("url1");
+    get Url(){
+        return this.form.get("url");
         }
-        get Text2(){
-          return this.form.get("text2");
-          }
-          get Url2(){
-            return this.form.get("url2");
-            }
+    
   onEnviar(event:Event){
     event.preventDefault;
     if(this.form.valid){
