@@ -19,12 +19,12 @@
    <!-- Botones editar Educación-->
    <section id="editEducacion" class="bg-dark">
     <div class="container">
-      <div class="row" *ngFor="let educacion of educacion">
+      <div class="row" >
         <div class="col">
         <!--Button trigger titulo docente-->
           <button type="button" class="btn btn-dark" 
             data-bs-toggle="modal" data-bs-target="#educacionId">
-              Editar:{{educacion.id}}
+              Editar Educación:
           </button>
           <app-edit-educacion></app-edit-educacion>
         <!--Button trigger TICs

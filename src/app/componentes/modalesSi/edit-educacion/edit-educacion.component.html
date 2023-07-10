@@ -3,15 +3,15 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h3 class="modal-title fs-5" id="tituloModalLabel">Editar Experiencia</h3>
+        <h3 class="modal-title fs-5" id="educacionId"> Editar Educación</h3>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <form name="experienciaForm">
       <div class="modal-body">
        
           <div class="mb-3">
-            <select class="form-select"id="educacionId">
-              <option selected>Seleccionar experiencia</option>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Seleccionar educación </option>
               <option value="1">ID1:Título docente</option>
               <option value="2">ID2: Tic docente</option>
               <option value="3">ID3: Sé programar</option>
@@ -20,11 +20,11 @@
               <option value="6">ID6: Git y GitHub</option>
               <option value="7">ID7: BD</option>
               <option value="8">ID8: Java</option>
-              
-            </select>
+              </select>
+
           </div>
           <div class="mb-3" id="educacionId">
-            <label for="url" class="form-label">Editar </label>
+            <label for="url" class="form-label">Editar Educación</label>
             <input type="url" placeholder="inserte url de imagen" id="imgTitulo" formControlName="url" >
             <input class="btn btn-dark" type="reset" value="Eliminar">
           </div>
