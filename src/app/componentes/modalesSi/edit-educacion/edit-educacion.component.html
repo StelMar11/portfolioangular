@@ -1,15 +1,16 @@
 <!--Modal Editar Educacion-->
-<div class="modal fade" id="tituloModal" tabindex="-1" aria-labelledby="tituloModalLabel" aria-hidden="true">
+<div class="modal fade" id="educacionId" tabindex="-1" aria-labelledby="tituloModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="tituloModalLabel">Editar Experiencia</h1>
+        <h3 class="modal-title fs-5" id="tituloModalLabel">Editar Experiencia</h3>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <form name="experienciaForm">
       <div class="modal-body">
-        <form name="experienciaForm">
+       
           <div class="mb-3">
-            <select class="form-select"id="experienciaId">
+            <select class="form-select"id="educacionId">
               <option selected>Seleccionar experiencia</option>
               <option value="1">ID1:Título docente</option>
               <option value="2">ID2: Tic docente</option>
@@ -22,22 +23,34 @@
               
             </select>
           </div>
-          <div class="mb-3" id="experienciaId">
-            <label for="url" class="form-label">Editar Título</label>
+          <div class="mb-3" id="educacionId">
+            <label for="url" class="form-label">Editar </label>
             <input type="url" placeholder="inserte url de imagen" id="imgTitulo" formControlName="url" >
             <input class="btn btn-dark" type="reset" value="Eliminar">
           </div>
-          <div class="mb-3">
+          <div class="mb-3" id="educacionId">
             <label for="text" class="form-label">Escribir texto</label>
             <input type="text" placeholder="inserte texto" formControlName="text">
             <input class="btn btn-dark" type="reset" value="Eliminar">
           </div>
-        </form>
+          <div class="mb-3">
+            <label for="educacionInicio" class="form-label">Modificar fecha inicio</label>
+            <input type="date" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="educacionFin" class="form-label">Modificar fecha fin</label>
+            <input type="date" class="form-control" formControlName="date">
+          </div>
+        
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
           <button type="button" class="btn btn-primary">Enviar</button>
       </div>
+    
       </div>
+    </form> 
+    </div>
+  </div>
 
 
 

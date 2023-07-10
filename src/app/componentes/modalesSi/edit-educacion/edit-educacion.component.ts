@@ -8,7 +8,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class EditEducacionComponent implements OnInit {
  public form: FormGroup;
-  constructor (private formBuilder: FormBuilder){
+ 
+ constructor (private formBuilder: FormBuilder){
     this.form= this.formBuilder.group({
       url:[' ', [Validators.required]],
       text:[' ', [Validators.required]],
@@ -18,13 +19,19 @@ export class EditEducacionComponent implements OnInit {
     })
   }
   ngOnInit(): void {}
+  
+   
     get Text(){
       return this.form.get("text");
       }
     get Url(){
         return this.form.get("url");
         }
-    
+    get Date(){
+      return this.form.get("date");
+    }
+
+
   onEnviar(event:Event){
     event.preventDefault;
     if(this.form.valid){
