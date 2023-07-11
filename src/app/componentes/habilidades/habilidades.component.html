@@ -1,15 +1,18 @@
 <!-- Habilidades-->
 <!--skill boostrap-->
 <section class="habilidades fondo">
+  
   <h2 class="titulo fondo">Habilidades</h2>
-    
+  
     <div class="progress  mb-3 fondo" *ngFor="let habilidad of habilidad" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+      
       <div class="progress-bar progress-bar-striped progress-bar-animated" [style.width.%]="habilidad.porcentaje" >{{habilidad.categoria}} {{habilidad.porcentaje}}%</div>
-    </div>
+      </div>
+  
 </section>
 
 <!-- Botones Editar habilidades-->
-<section id="editSkill" class="bg-dark" class="fondo">
+<section id="editSkill" class="fondo">
   <div class="container text-center fondo">
     <div class="row">
       <div class="col">
