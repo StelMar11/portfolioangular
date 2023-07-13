@@ -4,24 +4,37 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="bannerModalLabel">Editar</h1>
+          <h3 class="modal-title fs-5" id="bannerModalLabel">Editar</h3>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <form>
-        <div class="modal-body">
-          
+        <form name="bannerForm">
+          <div class="modal-body">
             <div class="mb-3">
-              <label for="imgBanner" class="form-label">Editar imagen</label>
-              <input type="url" placeholder="inserte url de imagen" id="imgBanner" name="imgBanner" >
-              <input class="btn btn-dark" type="reset" value="Eliminar">
-            </div>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccionar banner </option>
+                <option value="1">ID1:URL img banner</option>
+                <option value="2">ID2: URL img perfil</option>
+                <option value="3">ID3: Texto about</option>
+                <option value="4">ID4: Texto invito</option>
+                </select>
+              </div>
+              <div class="mb-3" id="bannerId">
+
+                <label for="url" class="form-label">Editar imagen</label>
+                 <input type="url" placeholder="inserte url de imagen" id="imgBanner" formControlName="url" >
+                 <input class="btn btn-dark" type="reset" value="Eliminar">
+                </div>
+                <div class="mb-3" id="educacionId">
+                  <label for="text" class="form-label">Escribir texto</label>
+                  <input type="text" placeholder="inserte texto" formControlName="text">
+                  <input class="btn btn-dark" type="reset" value="Eliminar">
+                </div>
+              
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Enviar</button>
           </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Enviar</button>
         </div>
       </form>
-      </div>
-    
     </div>
   </div>
