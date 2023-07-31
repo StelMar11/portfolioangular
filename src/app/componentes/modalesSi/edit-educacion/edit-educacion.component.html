@@ -1,12 +1,13 @@
 <!--Modal Editar Educacion-->
-<div class="modal fade" id="educacionId" tabindex="-1" aria-labelledby="tituloModalLabel" aria-hidden="true">
+<div class="modal fade" id="formacionModal" tabindex="-1" aria-labelledby="tituloModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h3 class="modal-title fs-5" id="educacionId"> Editar Educación</h3>
+        <h3 class="modal-title fs-5" id="formacionModalLabel"> Editar Educación</h3>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <form name="experienciaForm">
+      <form name="formacionForm">
+        
       <div class="modal-body">
        
           <div class="mb-3">
@@ -23,12 +24,12 @@
               </select>
 
           </div>
-          <div class="mb-3" id="educacionId">
+          <div class="mb-3" id="formacionId">
             <label for="url" class="form-label">Editar Educación</label>
             <input type="url" placeholder="inserte url de imagen" id="imgTitulo" formControlName="url" >
             <input class="btn btn-dark" type="reset" value="Eliminar">
           </div>
-          <div class="mb-3" id="educacionId">
+          <div class="mb-3" id="formacionId">
             <label for="text" class="form-label">Escribir texto</label>
             <input type="text" placeholder="inserte texto" formControlName="text">
             <input class="btn btn-dark" type="reset" value="Eliminar">
